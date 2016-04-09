@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BBC9DAB1CB6496D005E15A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC9DAA1CB6496D005E15A9 /* main.m */; };
+		8BBC9DAE1CB6496D005E15A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC9DAD1CB6496D005E15A9 /* AppDelegate.m */; };
+		8BBC9DB91CB6496D005E15A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC9DB71CB6496D005E15A9 /* LaunchScreen.storyboard */; };
+		8BBC9DCA1CB649BC005E15A9 /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC9DC11CB649BC005E15A9 /* FooterView.m */; };
+		8BBC9DCB1CB649BC005E15A9 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC9DC21CB649BC005E15A9 /* FooterView.xib */; };
+		8BBC9DCC1CB649BC005E15A9 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC9DC41CB649BC005E15A9 /* Goods.m */; };
+		8BBC9DCD1CB649BC005E15A9 /* GoodsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC9DC61CB649BC005E15A9 /* GoodsTableViewCell.m */; };
+		8BBC9DCE1CB649BC005E15A9 /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC9DC71CB649BC005E15A9 /* tgs.plist */; };
+		8BBC9DCF1CB649BC005E15A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBC9DC91CB649BC005E15A9 /* ViewController.m */; };
+		8BBC9DD11CB649DE005E15A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC9DD01CB649DE005E15A9 /* Assets.xcassets */; };
+		8BBC9DD31CB649F5005E15A9 /* GoodsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC9DD21CB649F5005E15A9 /* GoodsTableViewCell.xib */; };
+		8BBC9DD51CB64A5B005E15A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBC9DD41CB64A5B005E15A9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BBC9DA61CB6496D005E15A9 /* MeituHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeituHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBC9DAA1CB6496D005E15A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BBC9DAC1CB6496D005E15A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BBC9DAD1CB6496D005E15A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BBC9DB81CB6496D005E15A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BBC9DBA1CB6496D005E15A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBC9DC01CB649BC005E15A9 /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		8BBC9DC11CB649BC005E15A9 /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
+		8BBC9DC21CB649BC005E15A9 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		8BBC9DC31CB649BC005E15A9 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		8BBC9DC41CB649BC005E15A9 /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		8BBC9DC51CB649BC005E15A9 /* GoodsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsTableViewCell.h; sourceTree = "<group>"; };
+		8BBC9DC61CB649BC005E15A9 /* GoodsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsTableViewCell.m; sourceTree = "<group>"; };
+		8BBC9DC71CB649BC005E15A9 /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		8BBC9DC81CB649BC005E15A9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BBC9DC91CB649BC005E15A9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BBC9DD01CB649DE005E15A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BBC9DD21CB649F5005E15A9 /* GoodsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsTableViewCell.xib; sourceTree = "<group>"; };
+		8BBC9DD41CB64A5B005E15A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BBC9DA31CB6496D005E15A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BBC9D9D1CB6496D005E15A9 = {
+			isa = PBXGroup;
+			children = (
+				8BBC9DA81CB6496D005E15A9 /* MeituHome */,
+				8BBC9DA71CB6496D005E15A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BBC9DA71CB6496D005E15A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BBC9DA61CB6496D005E15A9 /* MeituHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BBC9DA81CB6496D005E15A9 /* MeituHome */ = {
+			isa = PBXGroup;
+			children = (
+				8BBC9DD01CB649DE005E15A9 /* Assets.xcassets */,
+				8BBC9DAC1CB6496D005E15A9 /* AppDelegate.h */,
+				8BBC9DAD1CB6496D005E15A9 /* AppDelegate.m */,
+				8BBC9DC81CB649BC005E15A9 /* ViewController.h */,
+				8BBC9DC91CB649BC005E15A9 /* ViewController.m */,
+				8BBC9DD41CB64A5B005E15A9 /* Main.storyboard */,
+				8BBC9DB71CB6496D005E15A9 /* LaunchScreen.storyboard */,
+				8BBC9DC01CB649BC005E15A9 /* FooterView.h */,
+				8BBC9DC11CB649BC005E15A9 /* FooterView.m */,
+				8BBC9DC21CB649BC005E15A9 /* FooterView.xib */,
+				8BBC9DC31CB649BC005E15A9 /* Goods.h */,
+				8BBC9DC41CB649BC005E15A9 /* Goods.m */,
+				8BBC9DC51CB649BC005E15A9 /* GoodsTableViewCell.h */,
+				8BBC9DC61CB649BC005E15A9 /* GoodsTableViewCell.m */,
+				8BBC9DD21CB649F5005E15A9 /* GoodsTableViewCell.xib */,
+				8BBC9DA91CB6496D005E15A9 /* Supporting Files */,
+			);
+			path = MeituHome;
+			sourceTree = "<group>";
+		};
+		8BBC9DA91CB6496D005E15A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BBC9DC71CB649BC005E15A9 /* tgs.plist */,
+				8BBC9DBA1CB6496D005E15A9 /* Info.plist */,
+				8BBC9DAA1CB6496D005E15A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BBC9DA51CB6496D005E15A9 /* MeituHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBC9DBD1CB6496D005E15A9 /* Build configuration list for PBXNativeTarget "MeituHome" */;
+			buildPhases = (
+				8BBC9DA21CB6496D005E15A9 /* Sources */,
+				8BBC9DA31CB6496D005E15A9 /* Frameworks */,
+				8BBC9DA41CB6496D005E15A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeituHome;
+			productName = MeituHome;
+			productReference = 8BBC9DA61CB6496D005E15A9 /* MeituHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BBC9D9E1CB6496D005E15A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HuberySun;
+				TargetAttributes = {
+					8BBC9DA51CB6496D005E15A9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8BBC9DA11CB6496D005E15A9 /* Build configuration list for PBXProject "MeituHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BBC9D9D1CB6496D005E15A9;
+			productRefGroup = 8BBC9DA71CB6496D005E15A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BBC9DA51CB6496D005E15A9 /* MeituHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BBC9DA41CB6496D005E15A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBC9DD31CB649F5005E15A9 /* GoodsTableViewCell.xib in Resources */,
+				8BBC9DB91CB6496D005E15A9 /* LaunchScreen.storyboard in Resources */,
+				8BBC9DCB1CB649BC005E15A9 /* FooterView.xib in Resources */,
+				8BBC9DD51CB64A5B005E15A9 /* Main.storyboard in Resources */,
+				8BBC9DD11CB649DE005E15A9 /* Assets.xcassets in Resources */,
+				8BBC9DCE1CB649BC005E15A9 /* tgs.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BBC9DA21CB6496D005E15A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBC9DCF1CB649BC005E15A9 /* ViewController.m in Sources */,
+				8BBC9DCA1CB649BC005E15A9 /* FooterView.m in Sources */,
+				8BBC9DCD1CB649BC005E15A9 /* GoodsTableViewCell.m in Sources */,
+				8BBC9DAE1CB6496D005E15A9 /* AppDelegate.m in Sources */,
+				8BBC9DCC1CB649BC005E15A9 /* Goods.m in Sources */,
+				8BBC9DAB1CB6496D005E15A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BBC9DB71CB6496D005E15A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBC9DB81CB6496D005E15A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BBC9DBB1CB6496D005E15A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BBC9DBC1CB6496D005E15A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BBC9DBE1CB6496D005E15A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeituHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hubery.MeituHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BBC9DBF1CB6496D005E15A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeituHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hubery.MeituHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BBC9DA11CB6496D005E15A9 /* Build configuration list for PBXProject "MeituHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBC9DBB1CB6496D005E15A9 /* Debug */,
+				8BBC9DBC1CB6496D005E15A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BBC9DBD1CB6496D005E15A9 /* Build configuration list for PBXNativeTarget "MeituHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBC9DBE1CB6496D005E15A9 /* Debug */,
+				8BBC9DBF1CB6496D005E15A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BBC9D9E1CB6496D005E15A9 /* Project object */;
+}
